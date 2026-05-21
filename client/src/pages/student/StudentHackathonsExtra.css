@@ -1,0 +1,103 @@
+/* appended to StudentPages.css — hackathon + shared extras */
+
+.hackathons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hackathon-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: border-color var(--transition);
+}
+.hackathon-card:hover { border-color: var(--border-green); }
+.hackathon-card.active-card { border-left: 3px solid var(--green); }
+.hackathon-card.ended-card { opacity: 0.6; }
+
+.hackathon-card-left { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+
+.hackathon-card-header { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.ended-tag {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  padding: 3px 8px;
+  border-radius: 2px;
+}
+
+.hackathon-card h3 { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; }
+.hackathon-card p { font-size: 13px; color: var(--text-muted); line-height: 1.6; max-width: 560px; }
+
+.hackathon-tracks { display: flex; gap: 6px; flex-wrap: wrap; }
+.track-tag {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  color: var(--text-muted);
+}
+
+.hackathon-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.hackathon-prize-block { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.prize-label {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.prize-value {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--green);
+  text-align: right;
+}
+
+.hackathon-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  border: 1px solid var(--border-green);
+  color: var(--green);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.hackathon-submit-btn:hover { background: var(--green-dim); }
+
+@media (max-width: 768px) {
+  .hackathon-card { flex-direction: column; }
+  .hackathon-card-right { flex-direction: row; align-items: center; width: 100%; justify-content: space-between; }
+}
