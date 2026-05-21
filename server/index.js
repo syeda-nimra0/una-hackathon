@@ -14,7 +14,7 @@ app.use(cors({
   origin: (origin, callback) => {
     const allowed = [
       process.env.CLIENT_URL,
-      'https://unaassistant.netlify.app',
+      'https://nimra-project.netlify.app',
       'https://una-hackathon-j2g8.vercel.app',
       'http://localhost:5173',
       'http://localhost:5174',
