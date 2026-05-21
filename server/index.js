@@ -15,6 +15,7 @@ app.use(cors({
     const allowed = [
   process.env.CLIENT_URL,
   'https://unaassistant.netlify.app',
+  'https://una-hackathon-j2g8.vercel.app/',
   'http://localhost:5173',
   'http://localhost:5174',
   'http://localhost:5175',
