@@ -30,15 +30,15 @@
 
 <div align="center">
 
-| Landing Page | Student Dashboard |
+| Landing Page | Login Page |
 |:---:|:---:|
-| ![Landing](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066467/Screenshot_2026-05-29_195204_z2iggm.png) | ![Dashboard](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195217_alj3jl.png) |
+| ![Landing](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066467/Screenshot_2026-05-29_195204_z2iggm.png) | ![Login](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195217_alj3jl.png) |
 
-| AI Assistant | Teacher Panel |
+| Signup Page | Student Panel |
 |:---:|:---:|
-| ![AI](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195227_v36cdn.png) | ![Teacher](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195255_ulkr3g.png) |
+| ![Signup](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195227_v36cdn.png) | ![Student Panel](https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195255_ulkr3g.png) |
 
-<img src="https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195324_zcsem8.png" width="80%" alt="UNA LMS Analytics" />
+<img src="https://res.cloudinary.com/dy7z0znum/image/upload/v1780066466/Screenshot_2026-05-29_195324_zcsem8.png" width="80%" alt="AI Assistant" />
 
 </div>
 
@@ -48,8 +48,8 @@
 
 | Service | URL |
 |---|---|
-| 🌐 **Frontend** | *(Netlify — add your link here)* |
-| 🔌 **Backend API** | *(Vercel — add your link here)* |
+| 🌐 **Frontend** | [nimra-project.netlify.app](https://nimra-project.netlify.app/) |
+| 🔌 **Backend API** | [una-hackathon.vercel.app](https://una-hackathon.vercel.app/) |
 | ❤️ **Health Check** | `GET /api/health` |
 
 ---
